@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="conexionSQL.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:conexionSQL"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Probar conexión" Margin="162,146,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="label1" HorizontalAlignment="Left" Margin="192,230,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
